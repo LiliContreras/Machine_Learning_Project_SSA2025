@@ -61,10 +61,33 @@
     </nav>
 
     <!--Section Hero-->
+    <section class="main-hero py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Columna 1: Título -->
+          <div class="col-md-6 text-center text-md-start">
+            <h1 class="jumbo">
+              Machine Learning-based Seismogenic Zones for Seismic Hazard Estimation in Mexico
+            </h1>
+            <h2 class="text-secondary mb-4" id="typewriter"></h2>
+          </div>
+    
+          <!-- Columna 2: Video -->
+          <div class="col-md-6 text-center">
+            <video class="img-fluid rounded" autoplay muted loop controls>
+              <source src="videos/Zonas_propuestas.mp4" type="video/mp4">
+              <source src="videos/lili.webm" type="video/webm">
+              Ups! your browser doesn't support videos.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
     <section class="main-hero align-items-stretch">
       <div class="contenedor-hero">
         <div class="grid-hero">
-          <div> <!--Columna 1-->
+          <div> 
             <h1 class="jumbo"> 
               Machine Learning-based Seismogenic Zones for Seismic Hazard Estimation in Mexico
             </h1>
@@ -81,16 +104,30 @@
           </video>
         </div>
       </div>
-      <!--<div class="hero-inferior">
-        <img class="hero-inferior-imagen img-fluid" src="imagenes/Wave.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
-      </div>-->
     </section>
+  -->
 
     <!-- ABout the project -->
+    <!-- 
     <section id="introduction" class="sobre-mi seccion-oscura">
       <div class="contenedor">
         <h2 class="seccion-titulo">About the project</h2>
         <p class="seccion-texto">
+          We explore a new approach for defining seismic zones intended to be the base of probabilistic seismic hazard calculations in Mexico. 
+          In order to reduce uncertainty in the PSH assessment, we evaluate the commonly used seismic zones in Mexico against the country's tectonic activity. 
+          We conclude that several discrepancies are observed, and a new approach is proposed to apply a machine learning algorithm designed to build seismic zones aligned 
+          with tectonic activity and geologic characteristics. To achieve the latter, we compiled focal mechanism data from an extended catalog by Franco et al. (2020), 
+          gravimetric data, and other geological features. The clustering algorithm HDBSCAN was selected for its suitability in handling the data distribution and density, 
+          providing optimal results for the task. Furthermore, we analyze b-values along a territorial grid to characterize seismicity and modify, evaluate, and validate the proposed zones. 
+          The results reveal a distribution of seismic zones that reflect the tectonic activity in Mexico, which brings more certainty to the seismic hazard estimations and opens a new direction in the definition of seismic zones.
+        </p>
+      </div>
+    </section>
+    -->
+    <section id="introduction" class="seccion-oscura">
+      <div class="container">
+        <h2 class="text-center mb-4">About the project</h2>
+        <p class="lead text-justify">
           We explore a new approach for defining seismic zones intended to be the base of probabilistic seismic hazard calculations in Mexico. 
           In order to reduce uncertainty in the PSH assessment, we evaluate the commonly used seismic zones in Mexico against the country's tectonic activity. 
           We conclude that several discrepancies are observed, and a new approach is proposed to apply a machine learning algorithm designed to build seismic zones aligned 
@@ -475,3 +512,4 @@
 
   </body>
 </html>
+
